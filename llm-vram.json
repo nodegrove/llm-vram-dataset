@@ -9,7 +9,8 @@
   "repository": "https://github.com/nodegrove/llm-vram-dataset",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "citation": "Nodegrove (2026). LLM VRAM dataset, version 2026-09-25. https://nodegrove.io/data",
+  "doi": "10.5281/zenodo.22966137",
+  "citation": "Nodegrove (2026). LLM VRAM dataset (version 2026-09-25) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22966137",
   "findings": [
     {
       "headline": "Newer models pay far less for context.",

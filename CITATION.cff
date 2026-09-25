@@ -10,6 +10,7 @@ authors:
     website: "https://nodegrove.io"
 url: "https://nodegrove.io/data"
 repository: "https://github.com/nodegrove/llm-vram-dataset"
+doi: "10.5281/zenodo.22966137"
 license: CC-BY-4.0
 keywords:
   - "llm"

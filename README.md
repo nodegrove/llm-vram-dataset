@@ -1,12 +1,14 @@
 # LLM VRAM dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22966137.svg)](https://doi.org/10.5281/zenodo.22966137)
+
 How much GPU memory 29 open-weight language models need, at six quantisations and every common context length, and which of 13 GPUs can run each one.
 
 Architecture values are read from each model's own `config.json` on Hugging Face. GPU memory and bandwidth come from the manufacturers' specification pages. Everything else is computed from those with one stated formula. Nothing is benchmarked, and nothing is copied from another site's table.
 
 It is the data behind the free calculators on [nodegrove.io](https://nodegrove.io), and its home page is [nodegrove.io/data](https://nodegrove.io/data).
 
-Version 2026-09-25 · [CC BY 4.0](LICENSE)
+Version 2026-09-25 · [CC BY 4.0](LICENSE) · Archived on Zenodo: [10.5281/zenodo.22966137](https://doi.org/10.5281/zenodo.22966137)
 
 ## What it shows
 
@@ -136,14 +138,14 @@ Blank means not applicable. The JSON holds the same rows under `models`, `gpus`,
 
 ## Versions
 
-Each data version is a dated [release](https://github.com/nodegrove/llm-vram-dataset/releases), and new open models are added as they come out. If a value disagrees with its source, [open an issue](https://github.com/nodegrove/llm-vram-dataset/issues) with the row and the link, and the next version will carry the fix.
+Each data version is a dated [release](https://github.com/nodegrove/llm-vram-dataset/releases), archived on Zenodo with a DOI of its own; [10.5281/zenodo.22966137](https://doi.org/10.5281/zenodo.22966137) covers all versions and resolves to the newest. New open models are added as they come out. If a value disagrees with its source, [open an issue](https://github.com/nodegrove/llm-vram-dataset/issues) with the row and the link, and the next version will carry the fix.
 
 ## Licence and citation
 
 [CC BY 4.0](LICENSE). Use it for anything, commercial work included, with credit to **Nodegrove** and a link to https://nodegrove.io/data.
 
 ```text
-Nodegrove (2026). LLM VRAM dataset, version 2026-09-25. https://nodegrove.io/data
+Nodegrove (2026). LLM VRAM dataset (version 2026-09-25) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22966137
 ```
 
 Each model's weights carry their own licence, listed per row. This repository contains no model files. Model and GPU names are trademarks of their owners.
