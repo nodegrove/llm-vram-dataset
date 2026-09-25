@@ -6,7 +6,7 @@ Architecture values are read from each model's own `config.json` on Hugging Face
 
 It is the data behind the free calculators on [nodegrove.io](https://nodegrove.io), and its home page is [nodegrove.io/data](https://nodegrove.io/data).
 
-Version 2026-09-18 · [CC BY 4.0](LICENSE)
+Version 2026-09-25 · [CC BY 4.0](LICENSE)
 
 ## What it shows
 
@@ -143,7 +143,7 @@ Each data version is a dated [release](https://github.com/nodegrove/llm-vram-dat
 [CC BY 4.0](LICENSE). Use it for anything, commercial work included, with credit to **Nodegrove** and a link to https://nodegrove.io/data.
 
 ```text
-Nodegrove (2026). LLM VRAM dataset, version 2026-09-18. https://nodegrove.io/data
+Nodegrove (2026). LLM VRAM dataset, version 2026-09-25. https://nodegrove.io/data
 ```
 
 Each model's weights carry their own licence, listed per row. This repository contains no model files. Model and GPU names are trademarks of their owners.

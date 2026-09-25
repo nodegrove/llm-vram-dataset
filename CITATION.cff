@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "LLM VRAM dataset"
-version: "2026-09-18"
+version: "2026-09-25"
 date-released: "2026-09-25"
 abstract: "Estimated memory for 29 open-weight language models at six quantisations and each common context length, and how each fits 13 GPUs. Architecture values are read from each model's config.json; GPU specs are the manufacturers'."
 authors:
