@@ -1,0 +1,14 @@
+gpu_id,gpu,kind,memory_gb,usable_gb,budget_gb,bandwidth_gb_s,spec_url,page_url,notes
+rtx-3060-12,RTX 3060 12 GB,consumer,12,12,11.4,360,https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/,https://nodegrove.io/gpus/rtx-3060-12,
+rtx-4060-ti-16,RTX 4060 Ti 16 GB,consumer,16,16,15.2,288,https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/,https://nodegrove.io/gpus/rtx-4060-ti-16,
+rtx-4070,RTX 4070 12 GB,consumer,12,12,11.4,504,https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070-family/,https://nodegrove.io/gpus/rtx-4070,
+rtx-3090,RTX 3090 24 GB,consumer,24,24,22.8,936,https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/,https://nodegrove.io/gpus/rtx-3090,
+rtx-4090,RTX 4090 24 GB,consumer,24,24,22.8,1008,https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/,https://nodegrove.io/gpus/rtx-4090,
+rtx-5090,RTX 5090 32 GB,consumer,32,32,30.4,1792,https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/,https://nodegrove.io/gpus/rtx-5090,
+rtx-6000-ada,RTX 6000 Ada 48 GB,workstation,48,48,45.6,960,https://www.nvidia.com/en-us/design-visualization/rtx-6000/,https://nodegrove.io/gpus/rtx-6000-ada,
+l40s,L40S 48 GB,datacenter,48,48,45.6,864,https://www.nvidia.com/en-us/data-center/l40s/,https://nodegrove.io/gpus/l40s,
+rtx-pro-6000,RTX PRO 6000 Blackwell 96 GB,workstation,96,96,91.2,1792,https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/,https://nodegrove.io/gpus/rtx-pro-6000,
+a100-80,A100 80 GB,datacenter,80,80,76,2039,https://www.nvidia.com/en-us/data-center/a100/,https://nodegrove.io/gpus/a100-80,
+h100-sxm,H100 SXM 80 GB,datacenter,80,80,76,3352,https://www.nvidia.com/en-us/data-center/h100/,https://nodegrove.io/gpus/h100-sxm,
+m2-ultra,Mac Studio M2 Ultra (unified),apple,192,144,136.8,800,https://support.apple.com/en-us/111835,https://nodegrove.io/gpus/m2-ultra,Unified memory: the model shares RAM with the system. Up to 192 GB configurable; prompt processing is slower than on NVIDIA.
+m4-max,MacBook Pro M4 Max (unified),apple,128,96,91.2,546,https://support.apple.com/en-us/121554,https://nodegrove.io/gpus/m4-max,"Unified memory, up to 128 GB configurable."

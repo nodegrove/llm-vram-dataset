@@ -1,0 +1,33 @@
+{
+  "title": "LLM VRAM dataset (2026-09-18)",
+  "upload_type": "dataset",
+  "version": "2026-09-18",
+  "publication_date": "2026-09-25",
+  "description": "<p>Estimated memory for 29 open-weight language models at six quantisations and each common context length, and how each fits 13 GPUs. Architecture values are read from each model's config.json; GPU specs are the manufacturers'.</p><ul><li><strong>Newer models pay far less for context.</strong> At 32k tokens, Qwen3 32B (2025, standard attention) spends 8.6 GB on its KV cache; its successor Qwen3.8 27B (2026, hybrid attention) spends 2.3 GB. Across all 29 models, each 1,000 tokens of context costs between 0.006 GB (Nemotron 3.5 Lightning 30B-A3B) and 0.328 GB (DeepSeek-R1 Distill Llama 70B).</li><li><strong>Active parameters set the speed, not the memory.</strong> Qwen3-Coder-Next 80B-A3B reads 3B parameters per token but keeps all 79.7B in memory: 48.9 GB at Q4_K_M with 8k context, against 22.4 GB for the dense Qwen3 32B.</li><li><strong>24 of 29 models fit a 24 GB card at Q4_K_M with 8k context.</strong> The largest is Qwen3.6 35B-A3B at 22.4 GB, under the 22.8 GB line (95% of the card).</li></ul><p>Method, columns and live tables: <a href=\"https://nodegrove.io/data\">https://nodegrove.io/data</a></p>",
+  "creators": [
+    {
+      "name": "Nodegrove"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "llm",
+    "vram",
+    "gpu memory",
+    "kv cache",
+    "quantization",
+    "gguf",
+    "open-weight models",
+    "local llm",
+    "mixture of experts"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://nodegrove.io/data",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset",
+      "scheme": "url"
+    }
+  ]
+}
